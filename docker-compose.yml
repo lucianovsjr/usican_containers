@@ -1,0 +1,7 @@
+version: '3'
+services:
+  back:
+    image: usican/api_usican:1
+    command: bash /api_usican/scripts/run_api.sh
+    ports:
+      - 8000:8000
