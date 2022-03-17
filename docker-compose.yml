@@ -3,7 +3,7 @@ services:
   back:
     container_name: api_usican
     image: usican/api_usican:1
-    command: bash /api_usican/scripts/run_api.sh
+    # command: bash /api_usican/scripts/run_api.sh
     ports:
       - 8000:8000
   front:
